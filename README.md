@@ -15,7 +15,8 @@ llm-annotation-reliability/
 │       └── poc_gemma3_results.csv   # Proof-of-Concept model outputs and confidence signals
 ├── scripts/
 │   ├── eda.ipynb                    # Exploratory Data Analysis (raw dataset statistics and label distributions)
-│   └── POC.ipynb                    # Proof-of-Concept inference pipeline (greedy + 5 stochastic reruns)
+│   ├── POC.ipynb                    # Proof-of-Concept inference pipeline (greedy + 5 stochastic reruns)
+|   └── POC_metric.ipynb             # Proof-of-Concept visualization of metrics
 ├── .env                             # Local environment variables (API keys, excluded from Git)
 ├── pyproject.toml                   # Project dependencies and configuration
 └── uv.lock                          # Locked environment dependencies (uv)
