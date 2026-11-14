@@ -1,5 +1,7 @@
-data
 __pycache__
 .DS_Store
 .venv
 .env
+# Raw datasets (excluded due to licensing restrictions and file size)
+data/MIPD/
+data/SemEval23/
